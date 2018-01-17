@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:gravity="center_vertical|left"
-                android:textColor="@color/default_message_color_rcv"
+                android:textColor="@color/bot_text_color"
                 android:textSize="@dimen/default_message_text_size"
                 tools:text="My name is Timi and I am..." />
 
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:gravity="center_vertical|left"
-                android:textColor="@color/default_tstamp_color_rcv"
+                android:textColor="@color/bot_text_color"
                 android:textSize="@dimen/default_timestamp_text_size"
                 tools:text="12:10 am" />
 

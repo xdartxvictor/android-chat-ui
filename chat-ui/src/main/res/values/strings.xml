@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Android UI Library</string>
 
-    <string name="default_input_hint">preguntale a Platzito</string>
+    <string name="default_input_hint">Pregúntale a Platzito...</string>
 </resources>
