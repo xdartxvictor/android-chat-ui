@@ -34,19 +34,20 @@
                 android:textSize="@dimen/default_message_text_size"
                 tools:text="My name is Timi and I am..." />
 
-            <!--<android.support.v4.widget.Space-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="4dp" />-->
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
 
-            <!--<TextView-->
-                <!--android:id="@+id/timestamp_text_view"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_gravity="right"-->
-                <!--android:gravity="center_vertical|left"-->
-                <!--android:textColor="@color/bot_text_color"-->
-                <!--android:textSize="@dimen/default_timestamp_text_size"-->
-                <!--tools:text="12:10 am" />-->
+            <TextView
+                android:id="@+id/timestamp_text_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/bot_text_color"
+                android:textSize="@dimen/default_timestamp_text_size"
+                android:visibility="invisible"
+                tools:text="12:10 am" />
 
         </LinearLayout>
 
